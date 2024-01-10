@@ -1,0 +1,12 @@
+this data model could represent a customer with an account in an kind of
+institution such as bank or any marketplace.
+
+- A Customer may have Accounts.
+- If there is a Customer, take his Address.
+- If there is an Account, it could have a type, and we use a Account_Type_Code
+to express it, and describe the type of Account the code represents in another
+table.
+- Each account has a set of Transactions, which means that we could use Event
+Sourcing. The main details of a Transaction such as amount and time are fields
+of this entity.
+- A ref table translates the Transaction_Type_Code to the type of transaction
