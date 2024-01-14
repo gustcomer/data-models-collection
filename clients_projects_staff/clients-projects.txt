@@ -1,0 +1,10 @@
+This model consists of Clients being charged for projects that are executed by
+some staff
+
+CLIENTS
+  Clients have some ongoing Projects
+  Clients have invoices, some of them are paid, some of them not
+
+STAFF
+  Staff have a set of skills and they work on projects.
+  In each project they perform a role
