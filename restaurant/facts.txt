@@ -1,0 +1,17 @@
+The purpose of the Database is to
+identify the daily quantities of Orders sold.
+Things of Interest :-
+1 Bookings
+2 Customers
+3 Ingredients
+4 Loyalty Cards 
+5 Menus
+6 Menu Items
+7 Orders
+What do we know about these 'Things of Interest' :-
+Loyalty Cards 
+The design should provide for either the basic 'Starbucks' card, 
+which simply records the number of visits, or they can optionally 
+record the Customers ID, and the amount spent in the restaurant.
+For this reason, the Table has a unique mandatory identifier
+and the Customer ID and Order ID are both optional.
