@@ -1,0 +1,63 @@
+1. Define the Scope as the Area of Interest,(e.g. the HR Department in an organization).
+
+2. Define the "Things of Interest",(e.g. Employees), in the Area of Interest.
+
+3 Analyze the Things of Interest and identify the corresponding Tables.
+4 Consider cases of 'Inheritance', where there are general Entities and Specific Entities.
+For example, a Customer is a General Entity, and Commercial Customer and Personal Customer would be Specific Entities.
+If you are just starting out, I suggest that you postpone this level of analysis.
+
+5 At this point, you can produce a List of Things of Interest.
+
+6 Establish the relationships between the Tables.
+For example, "A Customer can place many Orders", and "A Product can be purchased many times and appear in many Orders."
+
+7 Determine the characteristics of each Table,(e.g. an Employee has a Date-of-Birth).
+
+8 Identify the Static and Reference Data, such as Country Codes or Customer Types.
+
+9 Obtain a small set of Sample Data,
+e.g. "John Doe is a Maintenance Engineer and was born on 1st. August, 1965 and lives at 22 Woodland Street, New Haven.
+"He is currently assigned to maintenance of the Air-Conditioning and becomes available in 4 weeks time"
+
+10 Review Code or Type Data which is (more or less) constant, which can be classified as Reference Data.
+For example, Currency or Country Codes. Where possible, use standard values, such as ISO Codes.
+
+11 Look for 'has a' relationships. These can become Foreign Keys, or 'Parent-Child' relationships.
+
+12 You need to define a Primary Key for all Tables.
+For Reference Tables, use the'Code' as the Key, often with only one other field, which is the Description field.
+I recommend that names of Reference Data Tables all start with 'REF_'.
+For all non-Reference Data Tables, I suggest that you simply assign an Auto-increment Integer for each Primary Key.
+This has some benefits, for example, it provides flexibility, and it's really the only choice for a Database supporting a Web Site.
+However, it complicates life for developers, which have to use the natural key to join on, as well as the 'surrogate' key.
+It also makes it possible to postpone a thorough analysis of what the actual Primary Key should be, Which means, of course, that it often never gets done.
+
+13 Confirm the first draft of the Database design against the Sample Data.
+
+14 Review the Business Rules with Users,(if you can find any Users).
+
+15 Obtain from the Users some representative enquiries for the Database,
+e.g. "How many Maintenance Engineers do we have on staff coming available in the next 4 weeks ?"
+
+16 Review the Results of Steps 1) to 9) with appropriate people, such as Users, Managers,
+Development staff, etc. and repeat until the final Database design is reached.
+
+17 Define User Scenarios and step through them with some sample data to check that that Database supports the required functionality.
+
+================================================================================
+1) Start by looking at some interesting Data Model
+2) Identify the Data Model(s) that most closely match your requirements.
+3) Choose the Entities that you need (a valuable learning experience)
+4) Assemble the corresponding Business Rules
+5) Modify the Rules as appropriate.
+6) Assemble some Test Data - just 10 or 20 records.
+7) Define a typical User Scenario based on the test data.
+8) Put 4 pieces of paper on a desk or table - 
+  i) Data Models
+  ii) Business Rules
+  iii) User Scenarios
+  iv) Test Data
+9) Reflect on them while driving, in the shower, on the bus/train, out walking and so on.
+10) Prepare a presentation to show the requirements,(Rules), and the logic of your solution.
+11) Let me know how it goes !
