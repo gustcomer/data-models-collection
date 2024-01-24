@@ -1,0 +1,15 @@
+There are some APARTMENTS to rent. With main information such as number of bedrooms, bathrooms, etc.
+
+This Apartments are located in BUILDINGS, where we keep more details such as the address.
+
+These Apartments have TYPES which are stored in other table with some more details.
+
+Each Apartment has some facilities, such as dishwasher, hair dryer, refrigerator, etc.
+
+Each Apartment has its BOOKINGS, with start date, price, etc.
+
+Each Booking has a GUEST who will rent the Apartment, and he has some personal data.
+
+Each Apartment has a Unit Status, showing when it's available, etc.
+
+Each Booking has its own STATUS possibly Confirmed of Provisional.
