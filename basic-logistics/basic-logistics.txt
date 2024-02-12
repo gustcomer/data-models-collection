@@ -1,0 +1,10 @@
+1. Conceptual Model
+  just write the names of entities and some relationships
+
+2. Logical Data Model
+  improve a little bit. Write the entities, relationships and cardinality with
+  crow's foot notation
+
+3. Physical Data Mpdeç
+  improve more. Write entities, relationship, cardinality and columns, pks, fks,
+  and normalization.
